@@ -1,0 +1,342 @@
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000000000
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000000000 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000000000 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000000000
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000007919
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000007919 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000007919 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000007919 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000015838 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000015838 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000015838 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000015838
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000015838 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000015838 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000015838
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000023757
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000023757
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000023757
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000023757 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000031676 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000031676 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000031676
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000031676 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203525 147 ERROR dfs.DataNode: Block blk_-1000000000000031676 is corrupted! Checksum mismatch
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000031676 error: SocketTimeoutException
+081109 203525 147 ERROR dfs.DataNode: Failed to transfer blk_-1000000000000031676 to datanode 10.250.19.105:50010 timed out
+081109 203525 147 ERROR dfs.DataNode: Failed to transfer blk_-1000000000000031676 to datanode 10.250.19.105:50010 timed out
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000039595 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000039595
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000039595 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000039595 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000039595 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000039595 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000039595 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000047514 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000047514
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000047514 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000047514
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000047514
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000047514 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000055433
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000055433
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000055433 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000055433 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000055433 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000063352 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000063352 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000063352 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000063352 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000071271
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000071271 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000071271 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000071271
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000071271 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000079190
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000079190 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000079190 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000079190 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000087109 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000087109
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000087109 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000087109
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000087109
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000095028
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000095028
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000095028
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000095028 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000095028 of size 67108864 from /10.250.19.102
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000095028 error: SocketTimeoutException
+081109 203525 147 ERROR dfs.DataNode: BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock detected for blk_-1000000000000095028
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000102947 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000102947 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000102947 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000102947 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000102947 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000102947 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000102947 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000110866 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000110866 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000110866 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000110866 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000110866 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000118785 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000118785
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000118785 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000118785 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000126704 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000126704 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000126704
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000126704 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000126704 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000126704 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000134623 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000134623 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000134623 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000134623 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000134623 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000134623 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000142542 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000142542 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000142542
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000142542 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000142542
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000150461
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000150461 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000150461
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000150461
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000158380
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000158380
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000158380 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000158380
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000166299
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000166299
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000166299 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000166299 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000166299 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000174218 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000174218 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000174218
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000174218 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000174218 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000174218 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000182137
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000182137
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000182137 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000182137
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000182137 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000190056 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000190056 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000190056 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000190056 of size 67108864 from /10.250.19.102
+081109 203525 147 ERROR dfs.DataNode: Failed to transfer blk_-1000000000000190056 to datanode 10.250.19.105:50010 timed out
+081109 203525 147 ERROR dfs.DataNode: BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock detected for blk_-1000000000000190056
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000190056 error: SocketTimeoutException
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000197975
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000197975 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000197975 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000197975 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000197975 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000197975 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000205894
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000205894
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000205894
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000205894 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000213813 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000213813
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000213813
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000213813 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000213813
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000213813 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000221732
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000221732
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000221732
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000221732 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000221732 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000229651
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000229651 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000229651
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000229651
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000229651 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000237570 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000237570 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000237570 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000237570 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000237570
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000245489 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000245489 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000245489
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000245489 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000253408 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000253408
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000253408 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000253408
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000253408
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000261327 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000261327 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000261327 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000261327
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000261327 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000261327 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000269246 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000269246 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000269246 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000269246
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000269246 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000277165 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000277165 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000277165 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000277165 of size 67108864 from /10.250.19.102
+081109 203525 147 ERROR dfs.DataNode: Failed to transfer blk_-1000000000000277165 to datanode 10.250.19.105:50010 timed out
+081109 203525 147 ERROR dfs.DataNode: Block blk_-1000000000000277165 is corrupted! Checksum mismatch
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000285084 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000285084 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000285084 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000285084 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000285084
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000285084 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000285084 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000293003 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000293003 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000293003 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000293003 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000293003 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000293003
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000300922
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000300922 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000300922 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000300922
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000300922 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000300922 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000300922
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000308841 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000308841
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000308841 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000308841 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000316760 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000316760 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000316760 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000316760
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000316760 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000324679 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000324679 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000324679
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000324679 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000324679 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000324679 terminating
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000324679 error: SocketTimeoutException
+081109 203525 147 ERROR dfs.DataNode: Unexpected error reading block blk_-1000000000000324679 from datanode Connection reset by peer
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000324679 error: SocketTimeoutException
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000332598 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000332598 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000332598
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000332598 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000332598
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000340517
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000340517
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000340517 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000340517
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000348436 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000348436
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000348436 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000348436
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000348436 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000348436 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000356355 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000356355
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000356355
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000356355 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000356355 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000356355 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000364274 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000364274
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000364274 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000364274 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000364274
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000364274
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000364274
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000372193 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000372193 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000372193 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000372193 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000380112
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000380112
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000380112 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000380112
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000380112
+081109 203525 147 ERROR dfs.DataNode: Unexpected error reading block blk_-1000000000000380112 from datanode Connection reset by peer
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000380112 error: SocketTimeoutException
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000388031
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000388031 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000388031 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000388031
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000388031
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000388031
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000395950 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000395950 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000395950 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000395950 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000395950
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000395950 terminating
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000395950
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000403869 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000403869
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000403869 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000403869 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000403869
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000403869
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000403869
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000411788 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000411788 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000411788 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000411788
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000411788 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000411788 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000411788
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000419707 terminating
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000419707
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000419707
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000419707 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000419707 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000419707 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000427626
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000427626 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000427626
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000427626
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000427626
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000435545 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000435545 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000435545
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000435545
+081109 203525 147 ERROR dfs.DataNode: Failed to transfer blk_-1000000000000435545 to datanode 10.250.19.105:50010 timed out
+081109 203525 147 ERROR dfs.DataNode: BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock detected for blk_-1000000000000435545
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000443464 terminating
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000443464 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000443464
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000443464 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000443464 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000451383
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000451383
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000451383 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000451383
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000451383
+081109 203525 147 ERROR dfs.DataNode: Block blk_-1000000000000451383 is corrupted! Checksum mismatch
+081109 203525 147 ERROR dfs.DataNode: Block blk_-1000000000000451383 is corrupted! Checksum mismatch
+081109 203525 147 ERROR dfs.DataNode: BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock detected for blk_-1000000000000451383
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000459302 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000459302 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000459302
+081109 203518 143 INFO dfs.DataNode: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/dfs/data/current/blk_-1000000000000459302
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000459302 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000459302 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000459302 of size 67108864 from /10.250.19.102
+081109 203525 147 ERROR dfs.DataNode: BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock detected for blk_-1000000000000459302
+081109 203525 147 ERROR dfs.DataNode: Unexpected error reading block blk_-1000000000000459302 from datanode Connection reset by peer
+081109 203525 147 ERROR dfs.DataNode: Block blk_-1000000000000459302 is corrupted! Checksum mismatch
+081109 203525 147 ERROR dfs.DataNode: PacketResponder 2 for block blk_-1000000000000459302 error: SocketTimeoutException
+081109 203518 143 INFO dfs.DataNode: Received block blk_-1000000000000467221 of size 67108864 from /10.250.19.102
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000467221 terminating
+081109 203518 143 INFO dfs.DataNode: PacketResponder 1 for block blk_-1000000000000467221 terminating
+081109 203518 143 INFO dfs.DataNode: Receiving block blk_-1000000000000467221 src: /10.250.19.102:54106 dest: /10.250.19.102:50010
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000467221
+081109 203518 143 INFO dfs.DataNode: Verification succeeded for block blk_-1000000000000467221

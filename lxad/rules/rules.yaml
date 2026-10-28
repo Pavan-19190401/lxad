@@ -1,0 +1,126 @@
+rules:
+  - id: "R-001"
+    name: "Runaway Process Spike"
+    module: "CPU"
+    anomaly_type: "Runaway process"
+    base_severity: "High"
+    base_score: 0.85
+    condition:
+      metric: "cpu_percent"
+      operator: ">="
+      threshold: 85.0
+      duration_seconds: 15
+      check_top_process: true
+      top_process_min_cpu: 60.0
+    explanation_template: "CPU utilization surged to {metric_val:.1f}% (normal baseline ~{baseline:.1f}%). Single process '{process_name}' (PID {process_pid}) consumed {process_cpu:.1f}% CPU."
+    remedial_actions:
+      - "Inspect process '{process_name}' (PID {process_pid}) via Task Manager or Resource Monitor."
+      - "Check if the process is stuck in an infinite compute loop or thread deadlock."
+      - "Restart the service or terminate the runaway process if unresponsive."
+
+  - id: "R-002"
+    name: "Memory Pressure and Leak"
+    module: "RAM"
+    anomaly_type: "Memory pressure / possible leak"
+    base_severity: "High"
+    base_score: 0.80
+    condition:
+      metric: "memory_percent"
+      operator: ">="
+      threshold: 88.0
+      swap_operator: ">="
+      swap_threshold: 40.0
+    explanation_template: "Physical RAM usage saturated at {metric_val:.1f}%, while swap commit reached {swap_val:.1f}%. System is undergoing memory paging pressure."
+    remedial_actions:
+      - "Identify top memory-consuming processes and check for heap memory leaks."
+      - "Close unneeded heavy memory applications to prevent Out-Of-Memory (OOM) crashes."
+      - "Verify paging file allocation size in system performance settings."
+
+  - id: "R-003"
+    name: "System Error Storm"
+    module: "SystemLog"
+    anomaly_type: "Error storm"
+    base_severity: "High"
+    base_score: 0.82
+    condition:
+      error_count_min: 5
+      window_seconds: 60
+    explanation_template: "Encountered a burst of {error_count} system/application error events within 60 seconds."
+    remedial_actions:
+      - "Check Windows Event Viewer (Application & System channels) for specific faulting module names."
+      - "Inspect recent OS patches, driver updates, or missing DLL dependencies."
+      - "Examine disk health and filesystem integrity (e.g. chkdsk or sfc /scannow)."
+
+  - id: "R-004"
+    name: "Potential Brute Force Authentication"
+    module: "Security"
+    anomaly_type: "Possible brute-force attempt"
+    base_severity: "Critical"
+    base_score: 0.92
+    condition:
+      failed_logons_min: 4
+      window_seconds: 60
+    explanation_template: "Detected {failed_logons} failed logon attempts (Event ID 4625) in rapid succession."
+    remedial_actions:
+      - "Review Security log to identify target usernames and source IP / workstation names."
+      - "Temporarily disable or enforce account lockout on targeted accounts."
+      - "Restrict remote RDP/SMB exposure and verify firewall ingress policies."
+
+  - id: "R-005"
+    name: "Ransomware-like Mass File Activity"
+    module: "FileSystem"
+    anomaly_type: "Possible ransomware-like activity"
+    base_severity: "Critical"
+    base_score: 0.95
+    condition:
+      file_activity_min: 15
+      disk_write_rate_mb_sec: 10.0
+    explanation_template: "Rapid file modification burst ({file_activity} events) coupled with sustained disk write throughput of {disk_write_mb:.1f} MB/s."
+    remedial_actions:
+      - "Disconnect machine from local network immediately to prevent lateral encryption spreading."
+      - "Inspect recently modified files in watched directories for randomized file extension changes."
+      - "Check active process trees spawned in Temp/AppData for unrecognized unsigned binaries."
+
+  - id: "R-006"
+    name: "Suspicious Process from Temp Folder"
+    module: "Process"
+    anomaly_type: "Suspicious process"
+    base_severity: "Critical"
+    base_score: 0.90
+    condition:
+      new_temp_process: true
+    explanation_template: "New executable binary '{process_name}' (PID {process_pid}) spawned from temporary directory '{process_path}'."
+    remedial_actions:
+      - "Verify digital signature and hash (SHA256) of executable '{process_path}'."
+      - "Check parent process chain to determine origin (e.g. browser download or macro)."
+      - "Quarantine or terminate process pending security analyst review."
+
+  - id: "R-007"
+    name: "High Outbound Network Spike"
+    module: "Network"
+    anomaly_type: "Possible data exfiltration or heavy sync"
+    base_severity: "Medium"
+    base_score: 0.70
+    condition:
+      metric: "net_sent_bytes_sec"
+      operator: ">="
+      threshold_mb_sec: 5.0
+    explanation_template: "Network outbound transmission spiked to {net_sent_mb:.1f} MB/s (baseline ~{baseline:.1f} MB/s)."
+    remedial_actions:
+      - "Identify the owning process generating outbound traffic using netstat or Resource Monitor."
+      - "Verify destination IP address against threat intelligence feeds."
+      - "Check if a legitimate backup or cloud sync task (OneDrive, Google Drive) is running."
+
+  - id: "R-008"
+    name: "Service Crash or Instability"
+    module: "SystemLog"
+    anomaly_type: "Service instability"
+    base_severity: "High"
+    base_score: 0.85
+    condition:
+      service_crash_min: 1
+    explanation_template: "Critical system service or application process crashed unexpectedly (Event ID 7034/1000)."
+    remedial_actions:
+      - "Check service recovery options and restart failure configurations."
+      - "Inspect Windows crash dumps in %LOCALAPPDATA%\\CrashDumps."
+      - "Reinstall or update the unstable software package."

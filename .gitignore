@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build outputs (binaries exceed GitHub 100MB limit)
+build/
+dist/
+*.exe
+*.spec.bak
+
+# Local databases & runtime data
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/lxad.log
+*.log
+
+# Keep benchmark reference datasets
+!data/synthetic_hdfs.log
+!data/synthetic_hdfs_labels.csv
+!data/benchmark_report.csv
+
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & IDE
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+
+# Node / Web artifacts
+node_modules/
+web-dist/
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
