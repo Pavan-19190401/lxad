@@ -322,20 +322,20 @@ class MainWindow(QMainWindow):
         # CLEAN MINIMALIST HEADER & NAV BAR
         # ==========================================
         header_widget = QWidget()
-        header_widget.setStyleSheet("background-color: #08090a; padding: 16px 24px 0px 24px;")
+        header_widget.setStyleSheet("background-color: #08090a;")
         header_layout = QVBoxLayout(header_widget)
-        header_layout.setContentsMargins(0, 0, 0, 0)
-        header_layout.setSpacing(6)
+        header_layout.setContentsMargins(20, 16, 20, 0)
+        header_layout.setSpacing(8)
 
         # Top line: Title + Access Badge
         top_line = QHBoxLayout()
-        top_line.setSpacing(10)
+        top_line.setSpacing(12)
 
         title_box = QVBoxLayout()
         title_box.setSpacing(2)
 
         lbl_title = QLabel("System Health")
-        lbl_title.setStyleSheet("color: #ffffff; font-size: 22px; font-weight: 700; letter-spacing: -0.5px;")
+        lbl_title.setStyleSheet("color: #ffffff; font-size: 20px; font-weight: 700; letter-spacing: -0.5px;")
         title_box.addWidget(lbl_title)
 
         lbl_breadcrumb = QLabel("CMRIT  ›  CSE AI&ML  ›  Real-Time Observability")
@@ -350,58 +350,62 @@ class MainWindow(QMainWindow):
             lbl_access = QLabel()
             lbl_access.setTextFormat(Qt.RichText)
             lbl_access.setText(
-                '<span style="color: #4cd97b; font-size: 11px;">●</span> '
-                '<span style="color: #e2e8f0; font-weight: 700; font-size: 11px; letter-spacing: 0.6px;">ROOT ACCESS</span> '
-                '<span style="color: #636b76; font-size: 11px; margin-left: 4px;">| PRIVILEGED</span>'
+                '<span style="color: #3fb950; font-size: 9px; vertical-align: middle;">●</span>&nbsp;&nbsp;'
+                '<span style="color: #f0f3f6; font-weight: 700; font-size: 11px; letter-spacing: 0.8px;">ROOT ACCESS</span>&nbsp;&nbsp;'
+                '<span style="color: #636b76; font-size: 10px; font-weight: 600;">|&nbsp;&nbsp;PRIVILEGED</span>'
             )
+            lbl_access.setAlignment(Qt.AlignCenter)
+            lbl_access.setFixedHeight(28)
             lbl_access.setStyleSheet("""
-                background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #2a2d33, stop:1 #1c1e22);
-                border: 1px solid #3c414a;
-                border-top: 1px solid #4f5662;
-                border-bottom: 1px solid #141618;
-                border-radius: 4px;
-                padding: 4px 12px;
+                QLabel {
+                    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #292d34, stop:1 #1c1e23);
+                    border: 1px solid #3b414c;
+                    border-top: 1px solid #4f5765;
+                    border-bottom: 1px solid #141619;
+                    border-radius: 4px;
+                    padding: 0px 14px;
+                }
             """)
-            top_line.addWidget(lbl_access)
+            top_line.addWidget(lbl_access, 0, Qt.AlignRight | Qt.AlignVCenter)
         else:
             btn_elevate = QPushButton()
             btn_elevate.setText("⚡ Elevate to Root")
             btn_elevate.setToolTip("Request Administrator Privileges (Windows UAC) for Full PC Visibility")
             btn_elevate.setCursor(Qt.PointingHandCursor)
+            btn_elevate.setFixedHeight(28)
             btn_elevate.setStyleSheet("""
                 QPushButton {
-                    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #343840, stop:1 #24272c);
-                    border: 1px solid #454c56;
-                    border-top: 1px solid #5a626f;
-                    border-bottom: 1px solid #17191c;
+                    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #343943, stop:1 #24272e);
+                    border: 1px solid #454d5a;
+                    border-top: 1px solid #5a6475;
+                    border-bottom: 1px solid #16181c;
                     border-radius: 4px;
-                    padding: 5px 14px;
+                    padding: 0px 16px;
                     color: #f0f3f6;
                     font-size: 11px;
                     font-weight: 600;
                     letter-spacing: 0.4px;
                 }
                 QPushButton:hover {
-                    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #424752, stop:1 #2e3239);
-                    border-color: #646c7b;
-                    border-top-color: #7b8596;
+                    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #414855, stop:1 #2c313a);
+                    border-color: #626d7f;
+                    border-top-color: #79869e;
                     color: #ffffff;
                 }
                 QPushButton:pressed {
-                    background: #191b1e;
+                    background: #191b1f;
                     border-color: #383e47;
-                    border-top-color: #191b1e;
                     color: #8b949e;
                 }
             """)
             btn_elevate.clicked.connect(relaunch_as_admin)
-            top_line.addWidget(btn_elevate)
+            top_line.addWidget(btn_elevate, 0, Qt.AlignRight | Qt.AlignVCenter)
 
         header_layout.addLayout(top_line)
 
         # Tab Navigation Row: Clean, uncluttered text tabs
         nav_row = QHBoxLayout()
-        nav_row.setContentsMargins(0, 10, 0, 0)
+        nav_row.setContentsMargins(0, 8, 0, 0)
         nav_row.setSpacing(4)
 
         self._nav_buttons: List[QPushButton] = []
@@ -426,6 +430,7 @@ class MainWindow(QMainWindow):
         # Clean Test Anomaly Dropdown / Button (Blender Header Style)
         self.btn_test_menu = QPushButton("⚡ Simulate Anomaly ▾")
         self.btn_test_menu.setCursor(Qt.PointingHandCursor)
+        self.btn_test_menu.setFixedHeight(28)
         self.btn_test_menu.setStyleSheet("""
             QPushButton {
                 background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #2b2e35, stop:1 #1e2025);
@@ -433,10 +438,11 @@ class MainWindow(QMainWindow):
                 border: 1px solid #3c414b;
                 border-top: 1px solid #4a505c;
                 border-bottom: 1px solid #16181b;
-                border-radius: 5px;
-                padding: 6px 14px;
+                border-radius: 4px;
+                padding: 0px 14px;
                 font-weight: 600;
-                font-size: 12px;
+                font-size: 11px;
+                letter-spacing: 0.3px;
             }
             QPushButton:hover {
                 background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #363a43, stop:1 #272a31);
@@ -449,6 +455,7 @@ class MainWindow(QMainWindow):
                 color: #8b949e;
             }
         """)
+
 
         menu_sim = QMenu(self)
         menu_sim.setStyleSheet("""
